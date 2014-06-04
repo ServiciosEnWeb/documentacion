@@ -32,3 +32,5 @@ PARA VERIFICAR EL ESTADO DEL REPOSITORIO
 cd repositorioLocal
 2. Verificar estado
 git status
+
+CREDENCIALES
