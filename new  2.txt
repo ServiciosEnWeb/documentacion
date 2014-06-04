@@ -1,0 +1,34 @@
+1. Abrir la línea de comandos de Git
+2. Crear un directorio para descargar el repositorio remoto
+mkdir repositorioLocal
+3. Ubicarse dentro del directorio creado
+cd repositorioLocal
+4. Inicializar el repositorio local
+git init
+5. Apuntar el repositorio local al repositorio remoto
+git remote add origin http://github.com/ServiciosEnWeb/documentacion.git
+6. Verificar que en el directorio "repositorioLocal" se hayan descargado los archivos
+
+PARA ACTUALIZAR
+1. Ubicarse dentro del directorio del repositorio
+cd repositorioLocal
+2. Actualizar a la última versión disponible
+git pull http://github.com/ServiciosEnWeb/documentacion.git
+
+PARA SUBIR CAMBIOS O NUEVOS ARCHIVOS
+1. Ubicarse dentro del directorio del repositorio
+cd repositorioLocal
+2. Actualizar a la última versión disponible
+git pull
+3. Agregar los archivos y cambios nuevos
+git add *
+4. Hacer commit en el repositorio local
+git commit -m "Comentario sobre el cambio o actualizacion"
+5. Subir al repositorio remoto
+git push
+
+PARA VERIFICAR EL ESTADO DEL REPOSITORIO
+1. Ubicarse dentro del directorio del repositorio
+cd repositorioLocal
+2. Verificar estado
+git status
